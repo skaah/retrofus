@@ -324,13 +324,13 @@ export const professions: Profession[] = [
     name: 'Forgeur de Dagues',
     slug: 'forgeur-dagues',
     type: 'artisanat',
-    description: 'Le Forgeur de Dagues forge des lames courtes et acérées. Idéales pour les Srams et les Roublards qui aiment le combat au corps à corps furtif.',
+    description: 'Le Forgeur de Dagues forge des lames courtes et acérées. Idéales pour les Srams qui aiment le combat au corps à corps furtif.',
     workshops: ["Forge d'Astrub", "Forge de Bonta", "Forge de Brâkmar"],
     levelingGuide: {
       sections: [
         { levelRange: '1-20', title: 'Dagues basiques', description: 'Forgez des dagues en fer et en cuivre.', recipes: ["Dague de Boisaille", "Petite Dague"], location: "Forge d'Astrub" },
         { levelRange: '20-45', title: 'Dagues intermédiaires', description: 'Utilisez du bronze et des bois nobles pour les manches.', recipes: ["Dague du Chevalier", "Dague de l'Assassin"], location: "Forge de Bonta" },
-        { levelRange: '45-70', title: 'Dagues avancées', description: 'Forgez des dagues avec des matériaux rares.', recipes: ["Dague de Kanigrula", "Dague du Roublard"], location: 'Forges spécialisées' },
+        { levelRange: '45-70', title: 'Dagues avancées', description: 'Forgez des dagues avec des matériaux rares.', recipes: ["Dague de Kanigrula", "Dague du Sram Élite"], location: 'Forges spécialisées' },
         { levelRange: '70-100', title: 'Dagues légendaires', description: 'Les dagues les plus meurtrières du monde.', recipes: ["Dague de l'Ombre", "Lame Fantôme"], location: 'Forges de haut niveau' },
       ],
       tips: [
@@ -471,10 +471,10 @@ export const professions: Profession[] = [
         { levelRange: '1-15', title: 'Viandes basiques', description: 'Préparez des steaks de Bouftou et de Tofu.', recipes: ["Steak de Bouftou", "Blanc de Tofu"], location: "Boucherie d'Astrub" },
         { levelRange: '15-35', title: 'Charcuterie', description: 'Transformez les viandes en charcuteries durables.', recipes: ["Saucisse de Larve", "Pâté de Chafer"], location: "Boucherie de Bonta" },
         { levelRange: '35-65', title: 'Plats cuisinés', description: 'Préparez des plats cuisinés fortifiants.', recipes: ["Rôti de Craqueleur", "Ragoût de Koalak"], location: 'Boucheries spécialisées' },
-        { levelRange: '65-100', title: 'Festins', description: 'Les festins carnés les plus nourrissants du monde.', recipes: ["Festin du Chasseur", "Banquet Royal"], location: 'Boucheries de haut niveau' },
+        { levelRange: '65-100', title: 'Festins', description: 'Les festins carnés les plus nourrissants du monde.', recipes: ["Festin du Bouftou", "Banquet Royal"], location: 'Boucheries de haut niveau' },
       ],
       tips: [
-        'Se combine parfaitement avec le métier de Chasseur',
+        'Se combine parfaitement avec les métiers de récolte pour les ressources animales',
         'Les steaks fortifiants sont très demandés pour les donjons',
         'La Boucherie produit des items très demandés en période de war PvP',
         'Farmez vos propres ressources pour maximiser les marges',
