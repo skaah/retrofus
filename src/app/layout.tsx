@@ -11,18 +11,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "DofusRetro Wiki - L'Encyclopedie de Dofus Retro",
+  title: "Retrofus - L'Encyclopedie de Dofus Retro",
   description:
-    "L'encyclopedie communautaire de reference pour Dofus Retro. Retrouvez toutes les informations sur les equipements, armes, donjons, quetes, succes, metiers, classes et drops.",
+    "L'encyclopedie de reference pour Dofus Retro 1.29. Retrouvez toutes les informations sur les equipements, armes, donjons, quetes, succes, metiers, classes et drops.",
   keywords: [
     'Dofus Retro',
-    'Wiki',
+    'Retrofus',
     'Encyclopedie',
     'Equipements',
     'Armes',
     'Donjons',
     'Quetes',
     'MMORPG',
+    '1.29',
   ],
 };
 

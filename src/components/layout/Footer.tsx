@@ -43,11 +43,11 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <Shield className="w-8 h-8 text-dofus-gold" />
               <span className="text-xl font-bold bg-gradient-to-r from-dofus-gold to-yellow-300 bg-clip-text text-transparent">
-                DofusRetro Wiki
+                Retrofus
               </span>
             </Link>
             <p className="text-sm text-gray-400 dark:text-gray-400 leading-relaxed max-w-sm">
-              L&apos;encyclopedie communautaire de reference pour Dofus Retro.
+              L&apos;encyclopedie de reference pour Dofus Retro 1.29.
               Retrouvez toutes les informations sur les equipements, armes,
               donjons, quetes et bien plus encore.
             </p>
@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-10 pt-6 border-t border-white/10">
           <p className="text-center text-sm text-gray-500 dark:text-gray-500">
-            &copy; {currentYear} DofusRetro Wiki. Tous droits reserves. Ce site
+            &copy; {currentYear} Retrofus. Tous droits reserves. Ce site
             n&apos;est pas affilie a Ankama Games.
           </p>
         </div>

@@ -213,7 +213,7 @@ export default function Home() {
             >
               <Sparkles className="w-4 h-4 text-dofus-gold" />
               <span className="text-sm font-medium text-dofus-gold">
-                La reference Dofus Retro
+                Retrofus — La reference Dofus Retro 1.29
               </span>
             </motion.div>
 

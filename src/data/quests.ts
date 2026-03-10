@@ -1486,31 +1486,6 @@ export const quests: Quest[] = [
       estimatedTime: '45 minutes',
     },
   },
-  {
-    id: 'quete-classe-roublard',
-    name: 'L\'Art de l\'Explosion',
-    slug: 'lart-de-lexplosion',
-    level: 20,
-    category: 'classe',
-    zone: 'Temple Roublard',
-    description: 'Maîtrisez le placement de bombes et déclenchez des explosions dévastatrices.',
-    objectives: [
-      { description: 'Parler au Maître Artificier', type: 'talk', target: 'Maître Artificier', location: 'Temple Roublard' },
-      { description: 'Tuer 15 ennemis avec des explosions de bombes', type: 'explore', target: 'Épreuve des Bombes' },
-      { description: 'Vaincre le Démineur du Temple', type: 'kill', target: 'Démineur du Temple', quantity: 1, location: 'Temple Roublard' },
-    ],
-    rewards: { xp: 8000, kamas: 1500, items: ['Dague du Roublard Expert', 'Sort Exclusif: Bombe Perforante niveau 2'] },
-    guide: {
-      steps: [
-        { order: 1, description: 'Parlez au Maître Artificier dans l\'atelier', location: 'Temple Roublard', npc: 'Maître Artificier' },
-        { order: 2, description: 'Combattez et utilisez vos bombes pour tuer les ennemis', location: 'Zones de combat' },
-        { order: 3, description: 'Affrontez le Démineur qui désactive vos bombes', location: 'Temple Roublard' },
-      ],
-      tips: ['Placez les bombes en triangle pour maximiser les dégâts d\'explosion', 'Le Démineur peut désactiver vos bombes: placez-les en dernier moment', 'Montez votre Agilité pour le build Roublard classique'],
-      estimatedTime: '50 minutes',
-    },
-  },
-
   // ===== QUÊTES D'ALIGNEMENT SUPPLÉMENTAIRES =====
   {
     id: 'quete-ordre-bonta-2',

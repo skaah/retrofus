@@ -75,7 +75,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <Shield className="w-8 h-8 text-dofus-gold" />
             <span className="text-xl font-bold bg-gradient-to-r from-dofus-gold to-yellow-300 bg-clip-text text-transparent">
-              DofusRetro Wiki
+              Retrofus
             </span>
           </Link>
 
